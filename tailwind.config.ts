@@ -18,12 +18,12 @@ const config: Config = {
       'dusk-blue': '#33397A',
     },
     fontSize: {
-      base: ['1rem', '1.125rem'],
-      lg: ['1.125rem', '1.25rem'],
-      xl: ['1.5rem', '1.75rem'],
-      '2xl': ['2rem', '2.375rem'],
-      '3xl': ['2.5rem', '3rem'],
-      '4xl': ['3.5rem', '4.25rem'],
+      sm: ['1rem', '1.125rem'],
+      base: ['1.125rem', '1.25rem'],
+      lg: ['1.5rem', '1.75rem'],
+      xl: ['2rem', '2.375rem'],
+      '2xl': ['2.5rem', '3rem'],
+      '3xl': ['3.5rem', '4.25rem'],
     },
     extend: {
       width: {

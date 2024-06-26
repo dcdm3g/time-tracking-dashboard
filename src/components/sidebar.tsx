@@ -10,9 +10,9 @@ export function Sidebar() {
         </div>
 
         <div className="flex flex-col gap-1">
-          <p className="text-base text-pale-blue">Report for</p>
+          <p className="text-sm text-pale-blue">Report for</p>
 
-          <h2 className="text-xl font-light text-white xl:text-3xl">
+          <h2 className="text-lg font-light text-white xl:text-2xl">
             Jeremy Robson
           </h2>
         </div>

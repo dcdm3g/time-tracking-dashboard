@@ -14,7 +14,7 @@ export function TimeframeLink({ timeframe }: TimeframeLinkProps) {
   return (
     <Link
       data-active={timeframe === t}
-      className="text-lg text-desaturated-blue transition-colors hover:text-white data-[active=true]:text-white"
+      className="text-base text-desaturated-blue transition-colors hover:text-white data-[active=true]:text-white"
       href={{ pathname: '/', query: { t: timeframe } }}
       replace
     >
