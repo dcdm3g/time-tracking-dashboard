@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-hex: #0E1323;
+}
+
+body {
+  background-color: var(--background-hex);
+}
