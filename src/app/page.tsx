@@ -10,7 +10,7 @@ interface HomeProps {
 
 export default function Home({ searchParams }: HomeProps) {
   const t = searchParams?.t
-  const timeframe = isTimeframe(t) ? t : 'weekly'
+  const timeframe = typeof t === 'string' && isTimeframe(t) ? t : 'weekly'
 
   return (
     <main className="grid w-dashboard gap-6 xl:grid-cols-4 xl:grid-rows-2 xl:gap-8">
