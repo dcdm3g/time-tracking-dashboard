@@ -4,7 +4,7 @@ import Image from 'next/image'
 export function Sidebar() {
   return (
     <aside className="flex flex-col overflow-hidden rounded-2xl bg-dark-blue xl:row-span-2">
-      <div className="flex items-center justify-center gap-5 rounded-b-2xl bg-blue py-9 xl:flex-1 xl:flex-col xl:items-start xl:gap-11 xl:px-8 xl:py-0">
+      <div className="flex items-center justify-center gap-5 rounded-b-2xl bg-blue py-9 xl:flex-1 xl:flex-col xl:items-start xl:justify-start xl:gap-11 xl:px-8 xl:pb-0">
         <div className="relative size-16 rounded-full border-2 border-white xl:size-20">
           <Image src="/image-jeremy.png" alt="Jeremy Robson" fill />
         </div>
