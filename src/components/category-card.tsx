@@ -24,7 +24,7 @@ export function CategoryCard({
         <div className="flex items-center justify-between">
           <h3 className="text-lg font-medium text-white">{title}</h3>
 
-          <button className="group">
+          <button aria-label="show more" className="group">
             <svg height={5} width={21} xmlns="http://www.w3.org/2000/svg">
               <path
                 className="transition-colors group-hover:fill-white"
