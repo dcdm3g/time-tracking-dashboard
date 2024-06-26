@@ -2,6 +2,7 @@ import { tv } from 'tailwind-variants'
 import { Category } from '@/interfaces/category'
 import { getCategoryIcon } from '@/utils/get-category-icon'
 import Image from 'next/image'
+import workIconSrc from '&/icon-work.svg'
 
 const banner = tv({
   slots: {
@@ -48,7 +49,12 @@ export function CategoryBanner({ title }: CategoryBannerProps) {
 
   return (
     <div className={base()}>
-      <Image className={icon()} src={iconSrc} alt="" />
+      <Image
+        className={icon()}
+        src={iconSrc}
+        alt=""
+        priority={iconSrc === workIconSrc}
+      />
     </div>
   )
 }
