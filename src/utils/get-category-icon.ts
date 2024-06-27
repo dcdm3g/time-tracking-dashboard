@@ -1,10 +1,10 @@
 import { Category } from '@/interfaces/category'
-import workIcon from '&/icon-work.svg'
-import playIcon from '&/icon-play.svg'
-import studyIcon from '&/icon-study.svg'
-import exerciseIcon from '&/icon-exercise.svg'
-import socialIcon from '&/icon-social.svg'
-import selfCareIcon from '&/icon-self-care.svg'
+import workIcon from '@public/icon-work.svg'
+import playIcon from '@public/icon-play.svg'
+import studyIcon from '@public/icon-study.svg'
+import exerciseIcon from '@public/icon-exercise.svg'
+import socialIcon from '@public/icon-social.svg'
+import selfCareIcon from '@public/icon-self-care.svg'
 
 export function getCategoryIcon(title: Category) {
   const icons = {

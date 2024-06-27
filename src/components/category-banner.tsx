@@ -2,7 +2,7 @@ import { tv } from 'tailwind-variants'
 import { Category } from '@/interfaces/category'
 import { getCategoryIcon } from '@/utils/get-category-icon'
 import Image from 'next/image'
-import workIconSrc from '&/icon-work.svg'
+import workIconSrc from '@public/icon-work.svg'
 
 const banner = tv({
   slots: {
