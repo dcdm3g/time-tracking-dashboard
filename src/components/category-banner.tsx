@@ -17,7 +17,7 @@ const banner = tv({
       },
       Play: {
         base: 'bg-soft-blue',
-        icon: '-top-4 right-7',
+        icon: '-top-2.5 right-7',
       },
       Study: {
         base: 'bg-light-red',
@@ -33,7 +33,7 @@ const banner = tv({
       },
       'Self Care': {
         base: 'bg-soft-orange',
-        icon: '-top-5 right-[1.375rem]',
+        icon: '-top-3 right-[1.375rem]',
       },
     },
   },
