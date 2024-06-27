@@ -10,11 +10,11 @@ export function generateStaticParams() {
 
 interface TimeframeDashboardProps {
   params: {
-    timeframe: Timeframe
+    timeframe: Exclude<Timeframe, 'weekly'>
   }
 }
 
-export default function TimeframeDashboard({
+export default function DailyOrMonthlyDashboard({
   params,
 }: TimeframeDashboardProps) {
   return <Dashboard timeframe={params.timeframe} />
