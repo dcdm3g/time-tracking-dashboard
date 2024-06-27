@@ -1,5 +1,9 @@
 # Time Tracking Dashboard
 
+![Preview](preview.png)
+
+## Hello! 💫
+
 This is my solution to the ["Time Tracking Dashboard" challenge by Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw).
 
 ## Running 🚀
