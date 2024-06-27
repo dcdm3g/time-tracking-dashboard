@@ -1,24 +1,19 @@
-'use client'
-
 import { Timeframe } from '@/interfaces/timeframe'
-import { useTimeframe } from '@/hooks/use-timeframe'
 import Link from 'next/link'
 
 interface TimeframeLinkProps {
-  timeframe: Timeframe
+  current: Timeframe
+  to: Timeframe
 }
 
-export function TimeframeLink({ timeframe }: TimeframeLinkProps) {
-  const t = useTimeframe()
-
+export function TimeframeLink({ current, to }: TimeframeLinkProps) {
   return (
     <Link
-      data-active={timeframe === t}
+      data-active={current === to}
       className="text-base text-desaturated-blue transition-colors hover:text-white data-[active=true]:text-white"
-      href={{ pathname: '/', query: { t: timeframe } }}
-      replace
+      href={to === 'weekly' ? '/' : `/${to}`}
     >
-      {timeframe.replace(/^[a-z]/, (l) => l.toUpperCase())}
+      {to.replace(/^[a-z]/, (l) => l.toUpperCase())}
     </Link>
   )
 }
